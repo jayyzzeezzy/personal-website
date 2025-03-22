@@ -1,3 +1,12 @@
 #root {
-  
+  color: black;
+  text-align: center;
+}
+
+nav {
+    background-color: #4700b3;
+}
+
+h1 {
+    color: #4700b3;
 }
