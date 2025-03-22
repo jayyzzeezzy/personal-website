@@ -1,6 +1,6 @@
 #root {
-  color: black;
-  text-align: center;
+    color: black;
+    text-align: center;
 }
 
 nav {
@@ -9,4 +9,8 @@ nav {
 
 h1 {
     color: #4700b3;
+}
+
+.profile-picture {
+    max-width: 200px;
 }
