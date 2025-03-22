@@ -1,18 +1,11 @@
 import './App.css'
+import Navbar from './components/navbar';
 
 function App() {
 
   return (
     <>
-      <nav>
-        <a href="/">
-          <button>JZ</button>
-        </a>
-        <a href="https://drive.google.com/file/d/1OgxCoq5m945q1StFRq1NP5mEGNymfCf1/view?usp=sharing" target="_blank">
-          <button type="button">Resume</button>
-        </a>
-      </nav>
-      
+      <Navbar />
       <div>
         <h1>Hi, I'm James.</h1>
         <p>
