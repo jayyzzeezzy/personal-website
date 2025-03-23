@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "name": "The Online Shop",
+        "src": "src/assets/images/the-online-shop.PNG"
+    },
+    {
+        "id": 1,
+        "name": "Mini Message Board",
+        "src": "src/assets/images/mini-message-board.PNG"
+    },
+    {
+        "id": 2,
+        "name": "Todo List",
+        "src": "src/assets/images/todo-list.PNG"
+    },
+    {
+        "id": 3,
+        "name": "Memory Card",
+        "src": "src/assets/images/memory-card.PNG"
+    },
+    {
+        "id": 4,
+        "name": "Homepage",
+        "src": "src/assets/images/homepage.PNG"
+    },
+    {
+        "id": 5,
+        "name": "Tic Tac Toe",
+        "src": "src/assets/images/tic-tac-toe.PNG"
+    },
+    {
+        "id": 6,
+        "name": "Calculator",
+        "src": "src/assets/images/calculator.PNG"
+    }
+]

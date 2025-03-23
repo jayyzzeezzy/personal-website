@@ -14,3 +14,41 @@ h1 {
 .profile-picture {
     max-width: 200px;
 }
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.wrapper {
+    position: relative;
+}
+
+.project-picture {
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 2/1;
+    object-fit: fill;
+
+    opacity: 1;
+    transition: 500ms ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: 500ms ease;
+    /* opacity: 0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.wrapper:hover .project-picture {
+    opacity: 0.3;
+}
+
+.wrapper:hover .middle {
+    opacity: 1;
+}
