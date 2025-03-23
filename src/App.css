@@ -27,7 +27,7 @@ h1 {
     border: 2px solid rgb(0, 0, 0);
     background-color: #4700b3;
     color: white;
-    
+    max-width: min-content;
 }
 
 .wrapper {
@@ -61,10 +61,48 @@ h1 {
     
 }
 
+.demo {
+    display: flex;
+    gap: 10px;
+}
+
+.live, 
+.repo {
+    background-color: #6CB300;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    padding: 2px 4px;
+    min-width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .wrapper:hover .project-picture {
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .wrapper:hover .middle {
     opacity: 1;
+}
+
+.project-card .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    gap: 6px;
+}
+
+.tech-item {
+    color: black;
+    background-color: #6CB300;
+
+    padding: 0px 4px;
+    margin: 0px;
 }

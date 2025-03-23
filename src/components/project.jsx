@@ -12,19 +12,25 @@ function Project() {
                                 <img src={project.src} alt="" className="project-picture"/>
                                 <div className="middle">
                                     <div className="demo">
-                                        <a href="#">
-                                            <button>Live</button>
+                                        <a href={project.live} target="_blank">
+                                            <button className="live">Live</button>
                                         </a>
-                                        <a href="#">
-                                            <button>Repo</button>
+                                        <a href={project.repo} target="_blank">
+                                            <button className="repo">Repo</button>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className="details">
                                 <p className="name">{project.name}</p>
                                 <p className="description"></p>
-                                <div className="tech"></div>
+                                <div className="tech">
+                                    {project.tech.map((item) => {
+                                        return (
+                                            <p className="tech-item">#{item}</p>
+                                        )
+                                    })}
+                                </div>
                             </div>
                         </div>
                     )

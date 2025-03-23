@@ -2,36 +2,57 @@
     {
         "id": 0,
         "name": "The Online Shop",
-        "src": "src/assets/images/the-online-shop.PNG"
+        "src": "src/assets/images/the-online-shop.PNG",
+        "live": "https://jayyzzeezzy-shopping-cart.netlify.app/",
+        "repo": "https://github.com/jayyzzeezzy/shopping-cart.git",
+        "tech": ["React", "Vite", "Vitest", "React Router", "CSS"]
     },
     {
         "id": 1,
         "name": "Mini Message Board",
-        "src": "src/assets/images/mini-message-board.PNG"
+        "src": "src/assets/images/mini-message-board.PNG",
+        "live": "https://mini-message-board-production-1281.up.railway.app/",
+        "repo": "https://github.com/jayyzzeezzy/mini-message-board.git",
+        "tech": ["JavaScript", "Node.js", "Express", "EJS", "PostgreSQL"]
     },
     {
         "id": 2,
         "name": "Todo List",
-        "src": "src/assets/images/todo-list.PNG"
+        "src": "src/assets/images/todo-list.PNG", 
+        "live": "https://jayyzzeezzy.github.io/todo-list",
+        "repo": "https://github.com/jayyzzeezzy/todo-list.git",
+        "tech": ["JavaScript", "Webpack", "CSS"]
     },
     {
         "id": 3,
         "name": "Memory Card",
-        "src": "src/assets/images/memory-card.PNG"
+        "src": "src/assets/images/memory-card.PNG", 
+        "live": "https://jayyzzeezzy-memory-card.netlify.app/",
+        "repo": "https://github.com/jayyzzeezzy/memory-card.git",
+        "tech": ["React", "Vite", "CSS"]
     },
     {
         "id": 4,
         "name": "Homepage",
-        "src": "src/assets/images/homepage.PNG"
+        "src": "src/assets/images/homepage.PNG", 
+        "live": "https://jayyzzeezzy.github.io/homepage/",
+        "repo": "https://github.com/jayyzzeezzy/homepage.git",
+        "tech": ["Responsive Design", "CSS"]
     },
     {
         "id": 5,
         "name": "Tic Tac Toe",
-        "src": "src/assets/images/tic-tac-toe.PNG"
+        "src": "src/assets/images/tic-tac-toe.PNG", 
+        "live": "https://jayyzzeezzy.github.io/tic-tac-toe/",
+        "repo": "https://github.com/jayyzzeezzy/tic-tac-toe.git",
+        "tech": ["JavaScript", "CSS"]
     },
     {
         "id": 6,
         "name": "Calculator",
-        "src": "src/assets/images/calculator.PNG"
+        "src": "src/assets/images/calculator.PNG", 
+        "live": "https://jayyzzeezzy.github.io/calculator/",
+        "repo": "https://github.com/jayyzzeezzy/calculator.git",
+        "tech": ["JavaScript", "CSS", "DOM Events"]
     }
 ]
