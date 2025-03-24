@@ -23,7 +23,7 @@ function Project() {
                             </div>
                             <div className="details">
                                 <p className="name">{project.name}</p>
-                                <p className="description"></p>
+                                <p className="description">{project.description}</p>
                                 <div className="tech">
                                     {project.tech.map((item) => {
                                         return (

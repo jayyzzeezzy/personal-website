@@ -2,6 +2,7 @@
     {
         "id": 0,
         "name": "The Online Shop",
+        "description": "An e-commerce shop that is built with React and tested with Vitest. It uses React Router, State, Portal, and other techniques to serve a robust client-side experience to the users.",
         "src": "src/assets/images/the-online-shop.PNG",
         "live": "https://jayyzzeezzy-shopping-cart.netlify.app/",
         "repo": "https://github.com/jayyzzeezzy/shopping-cart.git",
@@ -10,6 +11,7 @@
     {
         "id": 1,
         "name": "Mini Message Board",
+        "description": "A message board with a minimalistic design that comes with a backend. It is built by using the MVC pattern and Express.js. Database is supported by PostgreSQL.",
         "src": "src/assets/images/mini-message-board.PNG",
         "live": "https://mini-message-board-production-1281.up.railway.app/",
         "repo": "https://github.com/jayyzzeezzy/mini-message-board.git",
@@ -18,6 +20,7 @@
     {
         "id": 2,
         "name": "Todo List",
+        "description": "A todo list web app that is made with Vanilla JavaScript, CSS, and HTML. Files are bundled together with WebPack. No frameworks used, just frontend fundamentals.",
         "src": "src/assets/images/todo-list.PNG", 
         "live": "https://jayyzzeezzy.github.io/todo-list",
         "repo": "https://github.com/jayyzzeezzy/todo-list.git",
@@ -26,6 +29,7 @@
     {
         "id": 3,
         "name": "Memory Card",
+        "description": "A fun memory game made with the help of PokeAPI and React. Techniques used in this project include asynchronous fetching, State, Effect, etc.",
         "src": "src/assets/images/memory-card.PNG", 
         "live": "https://jayyzzeezzy-memory-card.netlify.app/",
         "repo": "https://github.com/jayyzzeezzy/memory-card.git",
@@ -34,6 +38,7 @@
     {
         "id": 4,
         "name": "Homepage",
+        "description": "This website is built with the Responsive Design principles, aimed to support all screen sizes on different devices. Check it out on your phone and computer!",
         "src": "src/assets/images/homepage.PNG", 
         "live": "https://jayyzzeezzy.github.io/homepage/",
         "repo": "https://github.com/jayyzzeezzy/homepage.git",
@@ -42,6 +47,7 @@
     {
         "id": 5,
         "name": "Tic Tac Toe",
+        "description": "The classic Tic-Tac-Toe game but make it a web app version instead. This project is built in Vanilla JavaScript and CSS. Techniques include function scope and function factories in JavaScript.",
         "src": "src/assets/images/tic-tac-toe.PNG", 
         "live": "https://jayyzzeezzy.github.io/tic-tac-toe/",
         "repo": "https://github.com/jayyzzeezzy/tic-tac-toe.git",
@@ -50,6 +56,7 @@
     {
         "id": 6,
         "name": "Calculator",
+        "description": "An online calculator that can perform basic arithmetics…with a splash of colors. The purpose of this project is to demonstrate DOM and client-side event fundamentals.",
         "src": "src/assets/images/calculator.PNG", 
         "live": "https://jayyzzeezzy.github.io/calculator/",
         "repo": "https://github.com/jayyzzeezzy/calculator.git",
