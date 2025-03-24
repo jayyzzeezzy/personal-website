@@ -25,9 +25,9 @@ function Project() {
                                 <p className="name">{project.name}</p>
                                 <p className="description">{project.description}</p>
                                 <div className="tech">
-                                    {project.tech.map((item) => {
+                                    {project.tech.map((item, index) => {
                                         return (
-                                            <p className="tech-item">#{item}</p>
+                                            <p className="tech-item" key={index}>#{item}</p>
                                         )
                                     })}
                                 </div>

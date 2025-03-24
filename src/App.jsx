@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Project from './components/project';
+import TechStack from './components/techstack';
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Project />
-      
+      <TechStack />
     </>
   )
 }

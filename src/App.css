@@ -111,3 +111,18 @@ h1 {
     padding: 0px 4px;
     margin: 0px;
 }
+
+.stack-container {
+    display: flex;
+    justify-content: center;
+}
+
+.stack-item {
+    list-style-type: none;
+    display: flex;
+}
+
+.stack-icon {
+    max-width: 40px;
+    aspect-ratio: 1/1;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": "0",
+        "name": "Git",
+        "src": "src/assets/images/tech/git.svg"
+    },
+    {
+        "id": "1",
+        "name": "GitHub",
+        "src": "src/assets/images/tech/github.svg"
+    },
+    {
+        "id": "2",
+        "name": "VS Code",
+        "src": "src/assets/images/tech/vscode.svg"
+    },
+    {
+        "id": "3",
+        "name": "npm",
+        "src": "src/assets/images/tech/npm.svg"
+    },
+    {
+        "id": "4",
+        "name": "Webpack",
+        "src": "src/assets/images/tech/webpack.svg"
+    },
+    {
+        "id": "5",
+        "name": "Vite",
+        "src": "src/assets/images/tech/vitejs.svg"
+    },
+    {
+        "id": "6",
+        "name": "Jest",
+        "src": "src/assets/images/tech/jest.svg"
+    },
+    {
+        "id": "7",
+        "name": "Vitest",
+        "src": "src/assets/images/tech/vitest.svg"
+    }
+]
