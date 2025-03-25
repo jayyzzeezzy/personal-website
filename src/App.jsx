@@ -3,6 +3,7 @@ import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Project from './components/project';
 import TechStack from './components/techstack';
+import AboutMe from './components/aboutme';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Project />
       <TechStack />
+      <AboutMe />
     </>
   )
 }

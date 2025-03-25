@@ -149,3 +149,13 @@ ul {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.about-me,
+.about-me-heading {
+    background-color: #4700b3;
+    color: white;
+}
+
+.about-me-text {
+    font-size: 18px;
+}
