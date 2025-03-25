@@ -115,14 +115,37 @@ h1 {
 .stack-container {
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 180px;
 }
 
 .stack-item {
     list-style-type: none;
     display: flex;
+    align-items: center;
+    justify-content: start;
+
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    gap: 20px;
 }
 
 .stack-icon {
     max-width: 40px;
     aspect-ratio: 1/1;
+}
+
+.frontend,
+.backend,
+.others {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
