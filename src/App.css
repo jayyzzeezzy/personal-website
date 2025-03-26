@@ -186,3 +186,45 @@ ul {
 .about-me-text {
     font-size: 18px;
 }
+
+footer {
+    background-color: #4700b3;
+    padding-bottom: 50px;
+}
+
+.socials-heading {
+    padding-top: 100px;
+    color: white
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-link {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.social-link:hover {
+    background-color: #6CB300;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+.copyright {
+    color: white;
+    font-size: 18px;
+}
