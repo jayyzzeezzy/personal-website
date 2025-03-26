@@ -136,6 +136,8 @@ ul {
     border: 2px solid black;
     border-radius: 8px;
     gap: 20px;
+
+    background-color: white;
 }
 
 .stack-icon {
@@ -150,10 +152,35 @@ ul {
     font-size: 1.2rem;
 }
 
+.stack {
+    max-height: 286px;
+}
+
+.stack-container .column:nth-child(3) {
+    max-width: 360px;
+}
+
+.stack-container .column:nth-child(3) ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.stack-container .column:nth-child(3) ul .stack-item {
+    min-width: 150px;
+}
+
+.stack-container {
+    margin-bottom: -100px;
+}
+
 .about-me,
 .about-me-heading {
     background-color: #4700b3;
     color: white;
+}
+
+.about-me-heading {
+    padding-top: 200px;
 }
 
 .about-me-text {
