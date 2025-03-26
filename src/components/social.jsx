@@ -35,7 +35,7 @@ function Socials() {
                 </a>
             </div>
             <div className="copyright">
-                <p>Handcrafted by me © {new Date().getFullYear()}</p>
+                <p>Handcrafted by me <span>©</span> {new Date().getFullYear()}</p>
             </div>
         </footer>
     )
