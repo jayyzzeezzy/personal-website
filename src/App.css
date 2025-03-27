@@ -161,6 +161,10 @@ h1 {
 
 
 /* Tech Stack section */
+.tech-stack h1 {
+    margin-bottom: 20px;
+}
+
 .tech {
     display: flex;
     flex-wrap: wrap;
@@ -215,6 +219,7 @@ ul {
 .others {
     font-weight: bold;
     font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 .stack {
@@ -238,6 +243,8 @@ ul {
     margin-bottom: -100px;
 }
 
+
+/* About Me section */
 .about-me,
 .about-me-heading {
     background-color: #4700b3;
@@ -246,12 +253,16 @@ ul {
 
 .about-me-heading {
     padding-top: 200px;
+    margin-bottom: 20px;
+
 }
 
 .about-me-text {
     font-size: 18px;
 }
 
+
+/* Footer section */
 footer {
     background-color: #4700b3;
     padding-bottom: 50px;
@@ -259,13 +270,15 @@ footer {
 
 .socials-heading {
     padding-top: 100px;
-    color: white
+    color: white;
+    margin-bottom: 20px;
 }
 
 .social-media {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 20px;
 }
 
 .social-link {
