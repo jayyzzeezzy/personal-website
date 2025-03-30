@@ -13,7 +13,7 @@ function Hero() {
                 <h3>making scalable, efficient, and elegant solutions.</h3>
                 </div>
                 <p>
-                    <span className="emoji">&#128640;</span> Coding the Future, One Line at a Time. 
+                    Coding the Future, One Line at a Time. <span className="emoji">&#128640;</span>
                 </p>
                 <img src="src/assets/images/illustration.jpg" alt="illustration for software engineer" className="illustration"/>
             </div>
