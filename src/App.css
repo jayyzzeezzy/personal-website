@@ -111,7 +111,7 @@ h1 {
     min-width: 100%;
     min-height: 100%;
     aspect-ratio: 2/1;
-    object-fit: cover;
+    object-fit: fill;
 
     opacity: 1;
     transition: 500ms ease;
@@ -341,4 +341,119 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 6px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 810px) {
+    nav {
+        gap: 30vw;
+    }
+
+    .project-section h1 {
+        margin-top: 20px;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 0 10px;
+    }
+
+    .project-card {
+        max-width: 600px;
+    }
+
+    .demo {
+        gap: 20vw;
+    }
+
+    .live, .repo {
+        font-size: 1.5rem;
+    }
+
+    .wrapper,
+    .details {
+        max-width: 600px;
+    }
+
+    .illustration {
+        display: flex;
+        justify-self: center;
+        max-width: 600px;
+    }
+
+    .stack-container {
+        flex-direction: column;
+    }
+
+    .stack {
+        display: flex;
+        justify-content: center;
+    }
+
+    ul {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .stack-item {
+        min-width: 150px;
+    }
+
+    .stack-container .column:nth-child(3) {
+        max-width: none;
+    }
+
+    .stack-container .column:nth-child(3) .stack ul {
+        display: flex;
+        justify-content: center;
+    }                
+
+    .about-me-text {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 630px) {
+    nav {
+        gap: 20px;
+    }
+
+    .project-card,
+    .wrapper,
+    .details,
+    .illustration {
+        max-width: 300px;
+    }
+
+    .project-card {
+        box-sizing: border-box;
+    }
+
+    .demo {
+        gap: 40px;
+    }
+
+    .live, .repo {
+        font-size: 20px;
+    }
+
+
+    .social-media {
+        flex-wrap: wrap;
+        margin: 40px;
+    }
+}
+
+@media (max-width: 360px) {
+    .stack-container {
+        margin-bottom: -30px;
+    }
+
+    .about-me-heading {
+        padding-top: 400px;
+    }
 }

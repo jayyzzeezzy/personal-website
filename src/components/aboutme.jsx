@@ -3,7 +3,7 @@ function AboutMe() {
         <div className="about-me">
             <h1 className="about-me-heading">About Me</h1>
             <div className="about-me-text">
-                <p>In August 2023, I decided to pursue my passion for software engineering—a field that constantly challenges me and fuels my curiosity. I love the problem-solving aspect of coding, where complex ideas can be transformed into elegant and efficient solutions.</p>
+                <p>In August 2023, I decided to pursue my passion for software engineering—a field that constantly challenges me and fuels my curiosity. I love the problem-solving aspect of coding, where complex ideas can be transformed into elegant and efficient software solutions.</p>
 
                 <p>Over the past year and a half, I&#39;ve dedicated myself to learning software engineering, building projects, and continuously improving my skills. Whether it was through online courses, open-source contributions, or personal experiments, I embraced every challenge as an opportunity to grow.</p>
 

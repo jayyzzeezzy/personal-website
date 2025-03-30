@@ -15,6 +15,8 @@ function Hero() {
                 <p>
                     Coding the Future, One Line at a Time. <span className="emoji">&#128640;</span>
                 </p>
+            </div>
+            <div className="illustration-wrapper">
                 <img src="src/assets/images/illustration.jpg" alt="illustration for software engineer" className="illustration"/>
             </div>
         </div>
