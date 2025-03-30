@@ -13,8 +13,13 @@ nav {
     gap: 30rem;
 }
 
-.homebtn,
 .resumebtn {
+    margin-right: 10px;
+}
+
+.homebtn,
+.resumebtn,
+.qrbtn {
     font-weight: bold;
     color: white;
     border: none;
@@ -26,14 +31,17 @@ nav {
     font-size: 30px;
 }
 
-.resumebtn {
+.resumebtn,
+.qrbtn {
     font-size: 20px;
     border: 2px solid white;
     padding: 6px 10px;
     border-radius: 30px;
+    min-width: 108px;
 }
 
-.resumebtn:hover {
+.resumebtn:hover,
+.qrbtn:hover {
     background-color: #66cc00;
     color: black;
     
@@ -120,7 +128,7 @@ h1 {
 
 .middle {
     transition: 500ms ease;
-    /* opacity: 0; */
+    opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -130,7 +138,7 @@ h1 {
 
 .demo {
     display: flex;
-    gap: 10px;
+    gap: 60px;
 }
 
 .live, 
@@ -449,6 +457,11 @@ footer {
 }
 
 @media (max-width: 360px) {
+    .resumebtn {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
     .stack-container {
         margin-bottom: -30px;
     }
