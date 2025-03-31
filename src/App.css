@@ -84,6 +84,10 @@ h1 {
     margin-bottom: 40px;
 }
 
+.illustration-wrapper {
+    margin-bottom: 100px;
+}
+
 /* project section */
 .project-section h1 {
     margin-bottom: 20px;
@@ -270,7 +274,7 @@ ul {
 }
 
 .about-me-heading {
-    padding-top: 200px;
+    padding-top: 250px;
     margin-bottom: 20px;
 
 }
