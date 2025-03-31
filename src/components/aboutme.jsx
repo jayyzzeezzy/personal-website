@@ -7,7 +7,7 @@ function AboutMe() {
 
                 <p>Over the past year and a half, I&#39;ve dedicated myself to learning software engineering, building projects, and continuously improving my skills. Whether it was through online courses, open-source contributions, or personal experiments, I embraced every challenge as an opportunity to grow.</p>
 
-                <p>Currently, I work full-time as a Customer Service Representative. I enjoy problem-solving and helping others, skills that I know will translate well into a software engineering role. My goal is to contribute to meaningful projects while continuing to develop as a developer.</p>
+                <p>Currently, I work full-time as a Customer Service Representative. I enjoy problem-solving and helping others, skills that I know will translate well into a software engineering role. My goal is to contribute to meaningful projects while continuing to grow as a developer.</p>
 
                 <p>When I&#39;m not at my desk, you can find me at the gym, trying out new restaurants, or spending time with loved ones. My other hobbies are watching anime and trying new cooking recipes.</p>
 
