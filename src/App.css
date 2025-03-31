@@ -97,7 +97,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-self: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .project-card {
@@ -460,7 +460,7 @@ footer {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 357px) {
     .resumebtn {
         margin: 0;
         margin-bottom: 10px;
