@@ -358,7 +358,7 @@ footer {
 
 
 /* Responsive Design */
-@media (max-width: 810px) {
+@media (max-width: 850px) {
     nav {
         gap: 30vw;
     }
