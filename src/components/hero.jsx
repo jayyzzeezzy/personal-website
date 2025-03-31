@@ -1,3 +1,5 @@
+import illustration from '../assets/images/illustration.jpg';
+
 function Hero() {
     return (
         <div>
@@ -17,7 +19,7 @@ function Hero() {
                 </p>
             </div>
             <div className="illustration-wrapper">
-                <img src="src/assets/images/illustration.jpg" alt="illustration for software engineer" className="illustration"/>
+                <img src={illustration} alt="illustration for software engineer" className="illustration"/>
             </div>
         </div>
     )
