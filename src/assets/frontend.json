@@ -2,21 +2,21 @@
     {
         "id": "0",
         "name": "HTML",
-        "src": "src/assets/images/tech/html5.svg"
+        "src": "/images/tech/html5.svg"
     },
     {
         "id": "1",
         "name": "CSS",
-        "src": "src/assets/images/tech/css3.svg"
+        "src": "/images/tech/css3.svg"
     },
     {
         "id": "2",
         "name": "JavaScript",
-        "src": "src/assets/images/tech/javascript.svg"
+        "src": "/images/tech/javascript.svg"
     },
     {
         "id": "3",
         "name": "React",
-        "src": "src/assets/images/tech/react.svg"
+        "src": "/images/tech/react.svg"
     }
 ]

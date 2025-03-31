@@ -2,21 +2,21 @@
     {
         "id": "0",
         "name": "Node.js",
-        "src": "src/assets/images/tech/nodejs.svg"
+        "src": "/images/tech/nodejs.svg"
     },
     {
         "id": "1",
         "name": "Express",
-        "src": "src/assets/images/tech/expressjs.svg"
+        "src": "/images/tech/expressjs.svg"
     },
     {
         "id": "2",
         "name": "EJS",
-        "src": "src/assets/images/tech/ejs.svg"
+        "src": "/images/tech/ejs.svg"
     },
     {
         "id": "3",
         "name": "PostgreSQL",
-        "src": "src/assets/images/tech/postgresql.svg"
+        "src": "/images/tech/postgresql.svg"
     }
 ]
